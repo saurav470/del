@@ -21,7 +21,7 @@ if (cluster.isPrimary) {
 
 
 
-    console.log(path.resolve(__dirname, "certificate", "key.pem"));
+
 
     // Create a write stream (in append mode)
     const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' });
