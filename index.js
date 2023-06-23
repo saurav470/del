@@ -14,11 +14,11 @@ if (cluster.isPrimary) {
     const fs = require("fs")
     const moment = require('moment-timezone');
     const path = require('path');
-    const expressip = require('express-ip');
+
     const compression = require("compression")
     const https = require("https")
     server.use(compression())
-    server.use(expressip().getIpInfoMiddleware);
+
 
 
     console.log(path.resolve(__dirname, "certificate", "key.pem"));
@@ -32,7 +32,7 @@ if (cluster.isPrimary) {
     });
     morgan.token("ip", (req, res) => {
 
-        return req.ipInfo.ip
+        return req.ip
     })
     // Custom Log Format Definition
     morgan.format('myformat', '[:date [Asia/Kolkata]] ":method :url" :status :res[content-length] :response-time ms  :ip ipAdress ');
@@ -45,8 +45,8 @@ if (cluster.isPrimary) {
 
     })
     const sslserver = https.createServer({
-        key: fs.readFileSync(path.resolve(__dirname, "certificate", "key.pem")),
-        cert: fs.readFileSync(path.resolve(__dirname, "certificate", "cert.pem"))
+        key: process.env.KEY,
+        cert: process.env.CERT,
     }, server)
     sslserver.listen(port, () => {
         console.log("server listen on port", port);
