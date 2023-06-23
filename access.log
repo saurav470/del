@@ -1,0 +1,49 @@
+[2023-06-23T14:14:31+05:30 [Asia/Kolkata]] "GET /" 304 - 3.617 ms
+[2023-06-23T14:20:00+05:30 [Asia/Kolkata]] "GET /" 304 - 3.737 ms
+[2023-06-23T14:20:23+05:30 [Asia/Kolkata]] "GET /" 304 - 3.990 ms
+[2023-06-23T14:20:29+05:30 [Asia/Kolkata]] "GET /" 304 - 4.049 ms
+[2023-06-23T14:33:11+05:30 [Asia/Kolkata]] "GET /" 304 - 5.286 ms
+[2023-06-23T14:35:26+05:30 [Asia/Kolkata]] "GET /" 304 - 33.262 ms
+[2023-06-23T14:37:42+05:30 [Asia/Kolkata]] "GET /" 304 - 9760.339 ms
+[2023-06-23T14:38:33+05:30 [Asia/Kolkata]] "GET /" 304 - 5436.741 ms
+[2023-06-23T14:38:58+05:30 [Asia/Kolkata]] "GET /" 304 - 3296.655 ms
+[2023-06-23T14:40:18+05:30 [Asia/Kolkata]] "GET /" 304 - 4.274 ms
+[2023-06-23T14:40:20+05:30 [Asia/Kolkata]] "GET /" 304 - 0.953 ms
+[2023-06-23T14:40:21+05:30 [Asia/Kolkata]] "GET /" 304 - 0.570 ms
+[2023-06-23T14:40:48+05:30 [Asia/Kolkata]] "GET /" 304 - 6.873 ms
+[2023-06-23T14:56:24+05:30 [Asia/Kolkata]] "GET /" 304 - 32.494 ms
+[2023-06-23T14:58:46+05:30 [Asia/Kolkata]] "GET /" 304 - 29.817 ms
+[2023-06-23T14:58:58+05:30 [Asia/Kolkata]] "GET /" 500 1313 7.363 ms
+[2023-06-23T15:04:24+05:30 [Asia/Kolkata]] "GET /" 200 - 4.219 ms
+[2023-06-23T15:04:26+05:30 [Asia/Kolkata]] "GET /" 200 - 3.154 ms
+[2023-06-23T15:04:26+05:30 [Asia/Kolkata]] "GET /" 200 - 2.878 ms
+[2023-06-23T15:04:27+05:30 [Asia/Kolkata]] "GET /" 200 - 2.826 ms
+[2023-06-23T15:05:08+05:30 [Asia/Kolkata]] "GET /" 200 - 3.045 ms
+[2023-06-23T15:07:25+05:30 [Asia/Kolkata]] "GET /" 200 - 4.651 ms
+[2023-06-23T15:10:30+05:30 [Asia/Kolkata]] "GET /" - - - ms
+[2023-06-23T15:44:10+05:30 [Asia/Kolkata]] "GET /" 200 51 4.613 ms
+[2023-06-23T15:44:11+05:30 [Asia/Kolkata]] "GET /" 304 - 1.791 ms
+[2023-06-23T15:44:12+05:30 [Asia/Kolkata]] "GET /" 304 - 0.726 ms
+[2023-06-23T15:44:12+05:30 [Asia/Kolkata]] "GET /" 304 - 0.326 ms
+[2023-06-23T15:44:13+05:30 [Asia/Kolkata]] "GET /" 304 - 0.399 ms
+[2023-06-23T15:44:13+05:30 [Asia/Kolkata]] "GET /" 304 - 0.490 ms
+[2023-06-23T15:51:51+05:30 [Asia/Kolkata]] "GET /" 200 781 4.158 ms
+[2023-06-23T15:57:41+05:30 [Asia/Kolkata]] "GET /" 500 1492 5.270 ms
+[2023-06-23T15:57:42+05:30 [Asia/Kolkata]] "GET /" 500 1492 1.242 ms
+[2023-06-23T15:58:25+05:30 [Asia/Kolkata]] "GET /" 200 51 3.164 ms
+[2023-06-23T15:59:13+05:30 [Asia/Kolkata]] "GET /" 304 - 4.666 ms
+
+[2023-06-23T16:10:57+05:30 [Asia/Kolkata]] "GET /" 200 11 16.587 ms  ::1 ["ipAdress"] 
+[2023-06-23T16:11:29+05:30 [Asia/Kolkata]] "GET /" 304 - 4.335 ms  ::1 ipAdress 
+[2023-06-23T19:30:20+05:30 [Asia/Kolkata]] "GET /" 304 - 4.624 ms  ::1 ipAdress 
+[2023-06-23T19:30:29+05:30 [Asia/Kolkata]] "GET /" 304 - 3.364 ms  ::1 ipAdress 
+[2023-06-23T19:32:11+05:30 [Asia/Kolkata]] "GET /" 304 - 3.095 ms  ::1 ipAdress 
+[2023-06-23T19:32:14+05:30 [Asia/Kolkata]] "GET /" 304 - 0.713 ms  ::1 ipAdress 
+[2023-06-23T19:32:15+05:30 [Asia/Kolkata]] "GET /" 304 - 0.542 ms  ::1 ipAdress 
+[2023-06-23T19:32:15+05:30 [Asia/Kolkata]] "GET /" 304 - 0.448 ms  ::1 ipAdress 
+[2023-06-23T19:32:16+05:30 [Asia/Kolkata]] "GET /" 304 - 0.331 ms  ::1 ipAdress 
+[2023-06-23T19:32:16+05:30 [Asia/Kolkata]] "GET /" 304 - 0.374 ms  ::1 ipAdress 
+[2023-06-23T20:10:09+05:30 [Asia/Kolkata]] "GET /" 200 11 1.800 ms  ::1 ipAdress 
+[2023-06-23T20:10:09+05:30 [Asia/Kolkata]] "GET /favicon.ico" 404 150 1.945 ms  ::1 ipAdress 
+[2023-06-23T20:16:49+05:30 [Asia/Kolkata]] "GET /" 200 11 1.914 ms  ::1 ipAdress 
+[2023-06-23T20:16:51+05:30 [Asia/Kolkata]] "GET /" 200 11 0.490 ms  ::1 ipAdress 
